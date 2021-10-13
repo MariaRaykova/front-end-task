@@ -1,0 +1,366 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+html {
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+}
+
+body {
+    max-width: 1920px;
+    max-height: 1026px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.logo {
+    font: bold;
+    font-size: 70px;
+    width: 30%;
+    margin: 15px;
+}
+.search-field i {
+    position: absolute;
+    color: #cad1da;
+}
+.search-field {
+    width: 400px;
+    margin-bottom: 10px;
+    background: rgba(22, 27, 33, 1);
+    border-bottom: 1px solid #5d656f;
+}
+input,
+input:focus {
+    outline: none;
+    border: none;
+}
+
+.search-field .icon {
+    padding: 10px;
+    color: #cad1da;
+    min-width: 50px;
+    text-align: center;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    color: #cad1da;
+    text-align: center;
+    background: #161b21;
+}
+.contacts {
+    width: 250px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.login-cart-icons {
+    padding: 15px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.login-cart-icons .icon {
+    font-size: 60px;
+    color: #cad1da;
+    padding: 10px;
+}
+.contacts-number .icon {
+    font-size: 30px;
+    color: #cad1da;
+}
+.fa-shopping-cart {
+    color: rgba(42, 239, 195, 1);
+}
+.number {
+    font-weight: 600;
+    font-size: 26px;
+    color: #cad1da;
+}
+.contacts-number {
+    width: 300px;
+}
+.info {
+    font-weight: 600;
+    font-size: 14px;
+    color: #cad1da;
+}
+
+.top-nav-bar {
+    order: 1;
+    width: 1930px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    color: #fdfdfd;
+}
+.nav-top-bar {
+    background: #161b21;
+    height: 123.9px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-bottom-bar {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.nav-bottom-bar ul {
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 24px;
+    height: 60px;
+    background: #29323d;
+}
+
+.nav-bottom-bar ul li {
+    font-family: "Nunito", sans-serif;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+}
+.fa-star {
+    color: #2aefc3;
+}
+.fa-fire {
+    color: #ffbf46;
+}
+.breadcrumbs {
+    width: 1920px;
+    order: 2;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-left: 24px;
+    font-size: 12px;
+    line-height: 47px;
+    background: rgba(253, 253, 253, 1);
+    color: #5d656f;
+}
+.main {
+    order: 3;
+    width: 1920px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+.promotions {
+    background-color: rgba(255, 191, 70, 1);
+    border-radius: 45px;
+    border: none;
+}
+.product-info {
+    width: 40%;
+    margin-top: 15px;
+    padding-left: 2px;
+    font-size: 12px;
+    color: #5d656f;
+}
+.product-info-header {
+    border-bottom: 1px solid rgba(202, 209, 218, 1);
+}
+.first-line {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+}
+.product-info-body .right,
+.product-info-body .left {
+    font-size: 12px;
+}
+.product-info-body .right span,
+.product-info-body .left span {
+    padding: 5px;
+}
+.available {
+    color: rgba(14, 190, 152, 1);
+}
+
+.product-name {
+    font-size: 24px;
+    letter-spacing: 0.03em;
+    color: #161b21;
+}
+.product-description {
+    font-size: 18px;
+    letter-spacing: 0.03em;
+}
+.price-container {
+    /* display: flex;
+    align-items: flex-start; */
+    margin: 30px 10px;
+}
+.price,
+.old-price {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    margin-right: 5px;
+}
+.old-price {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 46px;
+    text-decoration-line: line-through;
+    color: #818a96;
+}
+.comment {
+    color: rgba(255, 191, 70, 1);
+    font-size: 12px;
+}
+.color-wrapper {
+    display: flex;
+    align-items: center;
+    margin: 30px 10px;
+}
+.color-wrapper-images {
+    width: 46px;
+    height: 46px;
+    padding: 2px;
+    display: flex;
+}
+.color-wrapper-images img {
+    width: 100%;
+    height: auto;
+    margin: 0 5px;
+}
+.color-wrapper-images img:hover {
+    border: 1px solid #5d656f;
+}
+.delivery-return {
+    font-size: 14px;
+    color: #818a96;
+    margin: 10px;
+}
+.delivery-return span {
+    margin-right: 25px;
+}
+.guarantee-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    background: #29323d;
+    font-size: 14px;
+    color: #ffbf46;
+    margin: 20px 10px;
+}
+.guarantee-line span {
+    padding-left: 10px;
+}
+.guarantee-line span a {
+    padding-right: 10px;
+    color: #ffbf46;
+}
+.buttons-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.buttons-wrapper .black {
+    width: 370px;
+    height: 55px;
+    background: #161b21;
+    color: #cad1da;
+    font-size: 16px;
+}
+.buttons-wrapper .black .icon {
+    color: #2aefc3;
+    padding-right: 5px;
+}
+.buttons-wrapper .white {
+    width: 370px;
+    height: 55px;
+    border: 1px solid #ffbf46;
+    box-sizing: border-box;
+    font-size: 14px;
+    padding: 0 90px;
+    color: #1a2027;
+}
+.yellow {
+    color: #ffbf46;
+}
+.save {
+    font-size: 14px;
+    color: #818a96;
+    margin: 10px;
+    margin: 20px 10px;
+}
+.save span {
+    margin-right: 25px;
+}
+.column {
+    float: left;
+    padding: 10px;
+}
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+.image-wrapper .container {
+    width: 773px;
+    height: 560px;
+    background: #f1f5f9;
+    margin: 5px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-wrapper .container img {
+    height: 100%;
+}
+
+.rows {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f1f5f9;
+    margin: 5px;
+    width: 137px;
+    height: 137px;
+}
+.rows img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 780px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+    .breadcrumbs {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-top-bar {
+        display: flex;
+        flex-direction: column;
+    }
+}
